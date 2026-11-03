@@ -1,0 +1,23 @@
+# Task Manager API xrefs
+
+Binary: `taskmgr-dark-neo.exe` (image base `0x140000000`)
+
+| API | DLL | import kind | IAT VA | call-site VAs |
+|---|---|---|---|---|
+| GetSysColor | USER32.dll | import | 0x1400248b8 | 0x140009974, 0x140009996, 0x14000e3d3, 0x14000e3f5, 0x140014c64, 0x140014c86, 0x140019459, 0x14001947b |
+| GetSysColorBrush | USER32.dll | import | 0x140024a50 | 0x1400022de, 0x14000231e, 0x1400099c9, 0x14000e428, 0x140014cb9, 0x1400194ae, 0x14001c34d, 0x1400212e6 |
+| GetStockObject | GDI32.dll | import | 0x140024658 | 0x140007893, 0x140007dd9, 0x140008237, 0x140008437, 0x14000911f, 0x1400098d3, 0x14000c3b4, 0x14000d610 |
+| CreatePen | GDI32.dll | import | 0x140024660 | 0x14000810e, 0x140009108, 0x14000c5b7, 0x14000d5f9 |
+| SetTextColor | GDI32.dll | import | 0x140024618 | 0x1400079fa, 0x1400084ae, 0x1400099a7, 0x14000c99d, 0x14000e406, 0x140014c97, 0x14001948c |
+| SetBkColor | GDI32.dll | import | 0x140024600 | 0x140009985, 0x14000e3e4, 0x140014c75, 0x14001946a |
+| SetBkMode | GDI32.dll | import | 0x140024620 | 0x1400079e5, 0x140008499, 0x140009952, 0x14000c989, 0x14000e3b1, 0x140014c42, 0x140019437 |
+| DrawTextW | USER32.dll | import | 0x140024898 | 0x140007a5c, 0x140008511, 0x14000ca68, 0x14000cb3a, 0x14000cc1e |
+| SetWindowTheme | UxTheme.dll | delay_import | 0x140031070 | 0x1400020ab, 0x14000d6f3, 0x14000db64, 0x140010422, 0x1400141a4, 0x1400168ce, 0x140019129, 0x14001bdfb, 0x14001ff5f |
+| GetMenu | USER32.dll | import | 0x140024aa8 | 0x140005cd1, 0x140007007, 0x14000b8a7, 0x14001007c, 0x140017c75, 0x140019cb6, 0x14001cbdd, 0x14001de8f |
+| FillRect | USER32.dll | import | 0x140024a40 | 0x140002335, 0x140007df6, 0x140008254, 0x14000c3cb |
+| CreateWindowExW | USER32.dll | import | 0x140024890 | 0x14000aef5, 0x14000bedb, 0x14000bf9d |
+| ShellExecuteExW | SHELL32.dll | delay_import | 0x140031020 | 0x140001d71, 0x1400096a8, 0x140011c00, 0x1400169cb, 0x140018a22 |
+| GetWindowThreadProcessId | USER32.dll | import | 0x140024808 | 0x140005b29, 0x14001ae77, 0x14001af54, 0x14001af7b, 0x14001b0f0 |
+| SetWindowLongPtrW | USER32.dll | import | 0x1400246f8 | 0x1400033fa, 0x1400096de, 0x14000db34, 0x14000e1bf, 0x140014174, 0x140014847, 0x1400190f5, 0x14001c150, 0x14001d44b, 0x1400210c0 |
+| CallWindowProcW | USER32.dll | import | 0x140024a58 | 0x140002389 |
+| DialogBoxParamW | USER32.dll | import | 0x140024748 | 0x1400037ad, 0x140004dbf, 0x14001153e, 0x140011600, 0x140015651, 0x14001ef09, 0x140020104, 0x14002122c |

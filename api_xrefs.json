@@ -1,0 +1,259 @@
+{
+  "GetSysColor": [
+    {
+      "slot": 5368858808,
+      "dll": "USER32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368748404,
+        5368748438,
+        5368767443,
+        5368767477,
+        5368794212,
+        5368794246,
+        5368812633,
+        5368812667
+      ]
+    }
+  ],
+  "GetSysColorBrush": [
+    {
+      "slot": 5368859216,
+      "dll": "USER32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368718046,
+        5368718110,
+        5368748489,
+        5368767528,
+        5368794297,
+        5368812718,
+        5368824653,
+        5368845030
+      ]
+    }
+  ],
+  "GetStockObject": [
+    {
+      "slot": 5368858200,
+      "dll": "GDI32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368739987,
+        5368741337,
+        5368742455,
+        5368742967,
+        5368746271,
+        5368748243,
+        5368759220,
+        5368763920
+      ]
+    }
+  ],
+  "CreatePen": [
+    {
+      "slot": 5368858208,
+      "dll": "GDI32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368742158,
+        5368746248,
+        5368759735,
+        5368763897
+      ]
+    }
+  ],
+  "SetTextColor": [
+    {
+      "slot": 5368858136,
+      "dll": "GDI32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368740346,
+        5368743086,
+        5368748455,
+        5368760733,
+        5368767494,
+        5368794263,
+        5368812684
+      ]
+    }
+  ],
+  "SetBkColor": [
+    {
+      "slot": 5368858112,
+      "dll": "GDI32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368748421,
+        5368767460,
+        5368794229,
+        5368812650
+      ]
+    }
+  ],
+  "SetBkMode": [
+    {
+      "slot": 5368858144,
+      "dll": "GDI32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368740325,
+        5368743065,
+        5368748370,
+        5368760713,
+        5368767409,
+        5368794178,
+        5368812599
+      ]
+    }
+  ],
+  "DrawTextW": [
+    {
+      "slot": 5368858776,
+      "dll": "USER32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368740444,
+        5368743185,
+        5368760936,
+        5368761146,
+        5368761374
+      ]
+    }
+  ],
+  "SetWindowTheme": [
+    {
+      "slot": 5368909936,
+      "dll": "UxTheme.dll",
+      "kind": "DIRECTORY_ENTRY_DELAY_IMPORT",
+      "sites": [
+        5368717483,
+        5368764147,
+        5368765284,
+        5368775714,
+        5368791460,
+        5368801486,
+        5368811817,
+        5368823291,
+        5368840031
+      ]
+    }
+  ],
+  "GetMenu": [
+    {
+      "slot": 5368859304,
+      "dll": "USER32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368732881,
+        5368737799,
+        5368756391,
+        5368774780,
+        5368806517,
+        5368814774,
+        5368826845,
+        5368831631
+      ]
+    }
+  ],
+  "FillRect": [
+    {
+      "slot": 5368859200,
+      "dll": "USER32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368718133,
+        5368741366,
+        5368742484,
+        5368759243
+      ]
+    }
+  ],
+  "CreateWindowExW": [
+    {
+      "slot": 5368858768,
+      "dll": "USER32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368753909,
+        5368757979,
+        5368758173
+      ]
+    }
+  ],
+  "ShellExecuteExW": [
+    {
+      "slot": 5368909856,
+      "dll": "SHELL32.dll",
+      "kind": "DIRECTORY_ENTRY_DELAY_IMPORT",
+      "sites": [
+        5368716657,
+        5368747688,
+        5368781824,
+        5368801739,
+        5368810018
+      ]
+    }
+  ],
+  "GetWindowThreadProcessId": [
+    {
+      "slot": 5368858632,
+      "dll": "USER32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368732457,
+        5368819319,
+        5368819540,
+        5368819579,
+        5368819952
+      ]
+    }
+  ],
+  "SetWindowLongPtrW": [
+    {
+      "slot": 5368858360,
+      "dll": "USER32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368722426,
+        5368747742,
+        5368765236,
+        5368766911,
+        5368791412,
+        5368793159,
+        5368811765,
+        5368824144,
+        5368829003,
+        5368844480
+      ]
+    }
+  ],
+  "CallWindowProcW": [
+    {
+      "slot": 5368859224,
+      "dll": "USER32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368718217
+      ]
+    }
+  ],
+  "DialogBoxParamW": [
+    {
+      "slot": 5368858440,
+      "dll": "USER32.dll",
+      "kind": "DIRECTORY_ENTRY_IMPORT",
+      "sites": [
+        5368723373,
+        5368729023,
+        5368780094,
+        5368780288,
+        5368796753,
+        5368835849,
+        5368840452,
+        5368844844
+      ]
+    }
+  ]
+}
